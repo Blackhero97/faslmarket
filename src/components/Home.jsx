@@ -25,7 +25,15 @@ import { Link } from "react-router-dom";
 function Home() {
   const { empty } = Fetch("https://5b4fe1198f106fc2.mokky.dev/empty");
   const { idea } = Fetch("https://5b4fe1198f106fc2.mokky.dev/idea");
-
+  const test = () => {
+    Swal.fire({
+      position: "top-end",
+      icon: "info",
+      title: "Sayt test rejimida",
+      showConfirmButton: false,
+      timer: 1500,
+    });
+  };
   return (
     <div className="Wrap">
       <div className="bg">
@@ -105,28 +113,28 @@ function Home() {
         <div className="how-title">FASLMARKET QANDAY ISHLAYDI</div>
         <div className="how container">
           <div className="how-row">
-            <div className="how-card">
+            <div onClick={() => test()} className="how-card">
               <img src={how1} alt="" className="how-card-img" />
               <h2 className="how-card-title">Account yarating</h2>
               <p className="how-card-text">
                 Faslmarket web sahifasidan ro’yhatdan o’ting
               </p>
             </div>
-            <div className="how-card">
+            <div onClick={() => test()} className="how-card">
               <img src={how2} alt="" className="how-card-img" />
               <h2 className="how-card-title">Rezyumeni yuklang</h2>
               <p className="how-card-text">
                 Shahsingizni va kasb malakangiz haqidagi hujjatni yuklang
               </p>
             </div>
-            <div className="how-card">
+            <div onClick={() => test()} className="how-card">
               <img src={how3} alt="" className="how-card-img" />
               <h2 className="how-card-title">Ishni izlang</h2>
               <p className="how-card-text">
                 Mutaxassisligingiz yoki hunaringizga mos kasbni tanlang
               </p>
             </div>
-            <div className="how-card">
+            <div onClick={() => test()} className="how-card">
               <img src={how4} alt="" className="how-card-img" />
               <h2 className="how-card-title">Ishli bo’ling</h2>
               <p className="how-card-text">

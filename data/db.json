@@ -10,7 +10,7 @@
     { "title": "Sotuvchi", "text": "20 ta ochiq ish o’rni", "id": 8 }
   ],
 
-  "ish":[
+  "ish": [
     {
       "title": "Jongoh mahallasi yoshlar yetakchisi",
       "price": "$200 - $500",
@@ -74,7 +74,7 @@
       "place": "Namangan viloyat , Chust tumani",
       "id": 9
     }
-  ] ,
+  ],
   "idea": [
     {
       "text": "FaslMarket o’rqali o’z mutaxassisligimga mos ishni topdim va bundan juda ham mamnunman Tashkilotchilarga rahmat.",
